@@ -1,0 +1,99 @@
+/* General Styling */
+.market-price-tracking {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+  
+  .market-price-tracking h2 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  
+  /* AI Toggle */
+  .ai-toggle {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .ai-toggle input {
+    margin-right: 10px;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background: #007bff;
+    color: white;
+  }
+  
+  td {
+    font-size: 14px;
+  }
+  
+  /* Suggested Actions */
+  .sell-high {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .adjust-price {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Price Alerts */
+  .price-alerts {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .price-alerts h3 {
+    margin-bottom: 10px;
+  }
+  
+  .price-alerts ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .price-alerts li {
+    padding: 8px;
+    background: #fff;
+    margin-bottom: 5px;
+    border-left: 5px solid #007bff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Price Flowchart Placeholder */
+  .price-flowchart {
+    margin-top: 20px;
+    padding: 20px;
+    background: #e3f2fd;
+    border-radius: 10px;
+  }
+  
+  .price-flowchart h3 {
+    color: #007bff;
+  }
+  

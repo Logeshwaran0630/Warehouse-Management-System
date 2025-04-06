@@ -1,0 +1,51 @@
+.inventory {
+    padding: 20px;
+  }
+  
+  .inventory h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .inventory-form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .inventory-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+  }
+  
+  .inventory-form button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .inventory-form button:hover {
+    background: #0056b3;
+  }
+  
+  .inventory-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .inventory-list th, .inventory-list td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .inventory-list th {
+    background: #f4f4f4;
+  }
+  

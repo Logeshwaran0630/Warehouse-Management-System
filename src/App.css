@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: #333;
+  color: white;
+}
+
+.nav-links a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.home-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.buttons .btn {
+  padding: 10px 15px;
+  margin: 10px;
+  background: blue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}

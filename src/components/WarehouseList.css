@@ -1,0 +1,65 @@
+/* Container styling */
+.warehouse-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  .warehouse-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  /* Search input */
+  .search-input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Table styling */
+  .warehouse-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+  }
+  
+  .warehouse-table th,
+  .warehouse-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .warehouse-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .warehouse-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .warehouse-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Loading and No Results Message */
+  .loading-message, .no-results {
+    font-size: 18px;
+    color: #777;
+    margin-top: 10px;
+  }
+  

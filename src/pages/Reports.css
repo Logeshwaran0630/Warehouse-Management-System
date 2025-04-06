@@ -1,0 +1,80 @@
+/* Reports Container */
+.reports-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Header */
+  .reports-container h2 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  
+  /* Report Cards */
+  .report-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .report-card {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .report-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Icons */
+  .report-icon {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Revenue Chart */
+  .chart-container {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-placeholder {
+    background: #dfe4ea;
+    color: #555;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .report-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .report-card {
+      width: 90%;
+    }
+  }
+  
